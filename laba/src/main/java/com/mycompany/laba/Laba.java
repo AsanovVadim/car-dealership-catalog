@@ -8,8 +8,6 @@ import java.awt.Point;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
-import com.mycompany.laba.Mazda;
-import com.mycompany.laba.Audi;
 
 /*
  * ©Vadik
@@ -57,7 +55,7 @@ public class Laba
                         System.out.println("Укажите тип топлива:");
                         String fuel = in.next();
 
-                        Mazda mazda = new Laba().new Mazda(unit,color,age,box,engine,fuel);
+                        Mazda mazda = new Mazda(unit,color,age,box,engine,fuel);
 
                         System.out.println("\nДобавлена позиция:"+"\nMazda"+"\nгод выпуска: "+
                                 mazda.getAge()+"\nцвет: " + mazda.getColor()+
@@ -81,7 +79,7 @@ public class Laba
                         System.out.println("Укажите тип топлива:");
                         String fuel = in.next();
 
-                        Audi audi = new Laba().new Audi(unit,color,age,box,engine,fuel);
+                        Audi audi = new Audi(unit,color,age,box,engine,fuel);
 
                         System.out.println("\nДобавлена позиция:"+"\nAudi"+"\nгод выпуска: "+
                                 audi.getAge()+"\nцвет: " + audi.getColor()+

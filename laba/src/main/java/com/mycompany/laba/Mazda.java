@@ -1,5 +1,4 @@
 package com.mycompany.laba;
-import com.mycompany.laba.AutoInterface;
 
 // Шаблон позиции для автомобиля марки Mazda
 public class Mazda implements AutoInterface

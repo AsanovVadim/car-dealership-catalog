@@ -1,5 +1,4 @@
 package com.mycompany.laba;
-import com.mycompany.laba.AutoInterface;
 
 // Шаблон позиции для автомобиля марки Audi
 public class Audi implements AutoInterface
