@@ -1,6 +1,6 @@
 package com.mycompany.laba;
 
-// Шаблон позиции для автомобиля марки Audi
+// Класс позиции для автомобиля марки Audi
 public class Audi implements AutoInterface
 {
     private Integer unit;
