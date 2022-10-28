@@ -1,6 +1,6 @@
 package com.mycompany.laba;
 
-// Шаблон позиции для автомобиля марки Mazda
+// Класс позиции для автомобиля марки Mazda
 public class Mazda implements AutoInterface
 {
     private Integer unit;
